@@ -1,0 +1,108 @@
+[
+	// Open this file
+	{ "keys": ["super+shift+,"], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
+
+	// Undo tab close
+	{ "keys": ["super+shift+t"], "command": "open_recent_file", "args": {"index" : 0} },
+
+	// Unassign this shortcut for increase_font_size
+	{ "keys": ["super+plus"], "command": "unbound" },
+
+	// SideBarEnhancements
+	{ "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
+	{ "keys": ["f2"], "command": "side_bar_rename" },
+	{ "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
+
+	// Toggle MiniMap
+	{ "keys": ["super+m","super+m"], "command": "toggle_minimap" },
+
+	// Js minifier
+	{ "keys": ["ctrl+alt+m"], "command": "minify" },
+	{ "keys": ["ctrl+alt+shift+m"], "command": "minify_to_file" },
+
+	// Convert to compact format
+	{ "keys": ["super+alt+c","super+alt+c"], "command": "css_format", "args": { "action": "compact" } },
+	{ "keys": ["super+alt+c","super+alt+x"], "command": "css_format", "args": { "action": "expand" } },
+	{ "keys": ["super+alt+c","super+alt+b"], "command": "css_format", "args": { "action": "expand-bs" } },
+
+	{ "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["super+alt+m"], "command": "minify" },
+	{ "keys": ["super+alt+shift+m"], "command": "minify_to_file" },
+
+	// Js Format
+	{ "keys": ["ctrl+alt+f"], "command": "js_format", "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}] },
+
+	// Code folding
+	{ "keys": ["super+alt+("], "command": "fold" },
+	{ "keys": ["super+alt+à"], "command": "unfold" },
+	{ "keys": ["super+k", "super+&", "super+k"], "command": "fold_by_level", "args": {"level": 1} },
+	{ "keys": ["super+k", "super+é", "super+k"], "command": "fold_by_level", "args": {"level": 2} },
+	{ "keys": ["super+k", "super+\"", "super+k"], "command": "fold_by_level", "args": {"level": 3} },
+	{ "keys": ["super+k", "super+'", "super+k"], "command": "fold_by_level", "args": {"level": 4} },
+	{ "keys": ["super+k", "super+(", "super+k"], "command": "fold_by_level", "args": {"level": 5} },
+	{ "keys": ["super+k", "super+§", "super+k"], "command": "fold_by_level", "args": {"level": 6} },
+	{ "keys": ["super+k", "super+è", "super+k"], "command": "fold_by_level", "args": {"level": 7} },
+	{ "keys": ["super+k", "super+!", "super+k"], "command": "fold_by_level", "args": {"level": 8} },
+	{ "keys": ["super+k", "super+ç", "super+k"], "command": "fold_by_level", "args": {"level": 9} },
+	{ "keys": ["super+k", "super+&", "super+à"], "command": "fold_by_level", "args": {"level": 10} },
+	{ "keys": ["super+k", "super+&", "super+&"], "command": "fold_by_level", "args": {"level": 11} },
+	{ "keys": ["super+k", "super+&", "super+é"], "command": "fold_by_level", "args": {"level": 12} },
+	{ "keys": ["super+k", "super+&", "super+\""], "command": "fold_by_level", "args": {"level": 13} },
+	{ "keys": ["super+k", "super+&", "super+'"], "command": "fold_by_level", "args": {"level": 14} },
+	{ "keys": ["super+k", "super+&", "super+("], "command": "fold_by_level", "args": {"level": 15} },
+	{ "keys": ["super+k", "super+&", "super+§"], "command": "fold_by_level", "args": {"level": 16} },
+	{ "keys": ["super+k", "super+&", "super+è"], "command": "fold_by_level", "args": {"level": 17} },
+	{ "keys": ["super+k", "super+&", "super+!"], "command": "fold_by_level", "args": {"level": 18} },
+	{ "keys": ["super+k", "super+&", "super+ç"], "command": "fold_by_level", "args": {"level": 19} },
+	{ "keys": ["super+k", "super+à"], "command": "unfold_all" },
+	{ "keys": ["super+k", "super+j"], "command": "unfold_all" },
+	{ "keys": ["super+k", "super+t"], "command": "fold_tag_attributes" },
+
+	// Markdown Preview
+	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} },
+
+	// Slugify
+	{ "keys": ["alt+ctrl+l"], "command": "slugify" },
+
+	// Themr
+	{ "keys": ["super+f5"], "command": "themr_list_themes" },
+	{ "keys": ["super+f7"], "command": "themr_cycle_themes", "args": {"direction": "prev"}},
+	{ "keys": ["super+f8"], "command": "themr_cycle_themes", "args": {"direction": "next"}},
+	{ "keys": ["super+f10"], "command": "themr_cycle_themes", "args": {"direction": "rand"}},
+
+	{ "keys": ["super+shift+f5"], "command": "themr_list_favorite_themes" },
+	{ "keys": ["super+shift+f7"], "command": "themr_cycle_favorite_themes", "args": {"direction": "prev"}},
+	{ "keys": ["super+shift+f8"], "command": "themr_cycle_favorite_themes", "args": {"direction": "next"}},
+	{ "keys": ["super+shift+f10"], "command": "themr_cycle_favorite_themes", "args": {"direction": "rand"}},
+
+	// Schemr
+	{ "keys": ["alt+f5"], "command": "schemr_list_schemes" },
+	{ "keys": ["alt+f7"], "command": "schemr_cycle_schemes", "args": {"direction": "next"}},
+	{ "keys": ["alt+f8"], "command": "schemr_cycle_schemes", "args": {"direction": "prev"}},
+	{ "keys": ["alt+f10"], "command": "schemr_cycle_schemes", "args": {"direction": "rand"}},
+
+	{ "keys": ["shift+alt+f5"], "command": "schemr_list_favorite_schemes" },
+	{ "keys": ["shift+alt+f7"], "command": "schemr_cycle_favorite_schemes", "args": {"direction": "next"}},
+	{ "keys": ["shift+alt+f8"], "command": "schemr_cycle_favorite_schemes", "args": {"direction": "prev"}},
+	{ "keys": ["shift+alt+f10"], "command": "schemr_cycle_favorite_schemes", "args": {"direction": "rand"}},
+
+	// CSS Comb
+    { "keys": ["ctrl+shift+c"], "command": "css_comb" },
+
+    // Can I Use
+    { "keys": ["super+alt+i"], "command": "use_it" },
+
+	// Terminal
+	{ "keys": ["super+ctrl+alt+shift+t"], "command": "open_terminal" },
+	{ "keys": ["super+ctrl+alt+t"], "command": "open_terminal_project_folder" },
+
+	// Toggle word wrap
+	{ "keys": ["ctrl+super+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+
+	// Pane resizer
+	{ "keys": ["alt+tab"], "command": "cycle_pane", "args": {"direction": "next" }},
+	{ "keys": ["alt+shift+tab"], "command": "cycle_pane", "args": {"direction": "prev" }},
+	{ "keys": ["alt+="], "command": "resize_pane", "args": {"direction": "out" }},
+	{ "keys": ["alt+-"], "command": "resize_pane", "args": {"direction": "in" }}
+
+]

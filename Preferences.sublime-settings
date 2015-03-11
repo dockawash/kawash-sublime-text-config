@@ -1,0 +1,36 @@
+{
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+	"draw_white_space": "all",
+	"find_selected_text": true,
+	"file_exclude_patterns":
+	[
+		"*.sublime-workspace",
+		"._*",
+		".DS*"
+	],
+	"fold_buttons": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		".idea"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Markdown Preview",
+		"Markdown"
+	],
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+	],
+	"theme": "Numix Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}
