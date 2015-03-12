@@ -5,6 +5,9 @@
 	// Undo tab close
 	{ "keys": ["super+shift+t"], "command": "open_recent_file", "args": {"index" : 0} },
 
+	// Title case
+	{ "keys": ["super+k", "super+c"], "command": "title_case" },
+
 	// Unassign this shortcut for increase_font_size
 	{ "keys": ["super+plus"], "command": "unbound" },
 
