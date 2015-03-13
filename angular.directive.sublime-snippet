@@ -1,5 +1,6 @@
 <snippet>
-    <content><![CDATA[(function() {
+    <content><![CDATA[/* jshint -W101 */
+(function() {
     'use strict';
 
     angular
