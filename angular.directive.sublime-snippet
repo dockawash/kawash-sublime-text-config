@@ -11,14 +11,29 @@
 
     /* @ngInject */
     function ${2:DirectiveName} (${3:dependencies}) {
-        // Usage:
+        // Tips Helpers
+        // restrict: 'EAC',         element/tag, attribute, classe
+        // scope: {
+        //   'textAttr': '@',       text-attr="{{val1}} {{val2}}"
+        //   'valueAttr': '=',      value-attr="val"
+        //   'actionAttr': '&'      action-attr="fnAction(args)"
+        //                          call with actionAttr()
+        // },
         //
-        // Creates:
+        // controller: dirController,    add: function dirController() { var vm = this; }
+        // controllerAs: 'vm',
+        //
+        // templateUrl: 'path to html',
+        // template: value,         where value is a path to a html
+        //
+        // replace: true,
         //
         var directive = {
-            link: link,
-            restrict: 'A'
+            bindToController: true,
+            restrict: 'A',
+            link: link
         };
+
         return directive;
 
         function link(scope, element, attrs) {

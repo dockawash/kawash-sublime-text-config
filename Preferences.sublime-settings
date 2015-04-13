@@ -22,14 +22,15 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Markdown Preview",
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"AngularJS Snippets",
+		"Vintage"
 	],
 	"open_files_in_new_window": false,
 	"rulers":
 	[
 	],
+	"tab_size": 4,
 	"theme": "Numix Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,

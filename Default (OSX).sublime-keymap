@@ -33,7 +33,7 @@
 	{ "keys": ["super+alt+shift+m"], "command": "minify_to_file" },
 
 	// Js Format
-	{ "keys": ["ctrl+alt+f"], "command": "js_format", "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}] },
+	{ "keys": ["super+ctrl+f"], "command": "js_format", "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}] },
 
 	// Code folding
 	{ "keys": ["super+alt+("], "command": "fold" },
@@ -106,6 +106,8 @@
 	{ "keys": ["alt+tab"], "command": "cycle_pane", "args": {"direction": "next" }},
 	{ "keys": ["alt+shift+tab"], "command": "cycle_pane", "args": {"direction": "prev" }},
 	{ "keys": ["alt+="], "command": "resize_pane", "args": {"direction": "out" }},
-	{ "keys": ["alt+-"], "command": "resize_pane", "args": {"direction": "in" }}
+	{ "keys": ["alt+-"], "command": "resize_pane", "args": {"direction": "in" }},
 
+	// Tag
+	{ "keys": ["ctrl+super+i"], "command": "tag_indent" },
 ]

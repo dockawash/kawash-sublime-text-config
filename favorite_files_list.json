@@ -1,12 +1,17 @@
 {
     "files": [],
     "groups": {
+        "Breeze": [
+            "/Users/sebastienray/Documents/SPOTERN/spotern-v1/bower_components/breezejs/labs/breeze.labs.dataservice.abstractrest.js"
+        ],
         "Settings": [
             "/Users/sebastienray/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
             "/Users/sebastienray/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
             "/Users/sebastienray/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
             "/Users/sebastienray/Library/Application Support/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
-            "/Users/sebastienray/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings",
+            "/Users/sebastienray/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings"
+        ],
+        "Helpers": [
             "/Users/sebastienray/Documents/dockawash/SublimeText - Helper.md",
             "/Users/sebastienray/Documents/dockawash/angular-styleguide-master/README.md"
         ]
